@@ -1,0 +1,906 @@
+Archive member included to satisfy reference by file (symbol)
+
+../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Lights_Switches_bsp//obj/HAL/src/crt0.o (alt_load)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+                              ../Lights_Switches_bsp//obj/HAL/src/crt0.o (alt_main)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o) (close)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o) (alt_ic_isr_register)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o) (_alt_tick_rate)
+../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                              c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                              c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o) (_global_impure_ptr)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o) (__mulsi3)
+../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000008000 0x0000000000000020
+onchip_mem       0x0000000000008020 0x0000000000004fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/Lights_Switches.o
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+LOAD ../Lights_Switches_bsp/\libhal_bsp.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+                0x0000000000008000                __alt_mem_onchip_mem = 0x8000
+
+.entry          0x0000000000008000       0x20
+ *(.entry)
+ .entry         0x0000000000008000       0x20 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+                0x0000000000008000                __reset
+
+.exceptions     0x0000000000008020      0x1a0
+                0x0000000000008020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000008020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000008020        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000008020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000008020        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000008020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000008020       0x54 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000008074       0x10 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000008084        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000008088        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000000808c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000000808c        0x8 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000008094        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x0000000000008098        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x0000000000008098        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x0000000000008098       0x54 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000080ec       0xd4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000080ec                alt_irq_handler
+                0x00000000000081c0                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000008020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00000000000081c0     0x16b4
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000081c0       0x3c ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+                0x00000000000081c0                _start
+ .text          0x00000000000081fc        0x0 obj/default/Lights_Switches.o
+ .text          0x00000000000081fc       0xec ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000008264                alt_load
+ .text          0x00000000000082e8       0x6c ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000082e8                alt_main
+ .text          0x0000000000008354       0xc0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000000838c                alt_irq_init
+                0x00000000000083c4                alt_sys_init
+ .text          0x0000000000008414       0xc0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000000008414                altera_avalon_jtag_uart_read_fd
+                0x0000000000008474                altera_avalon_jtag_uart_write_fd
+ .text          0x00000000000084d4       0xec ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x00000000000084d4                altera_avalon_jtag_uart_read
+ .text          0x00000000000085c0       0x94 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x00000000000085c0                altera_avalon_jtag_uart_write
+ .text          0x0000000000008654      0x104 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x00000000000086cc                alt_avalon_timer_sc_init
+ .text          0x0000000000008758      0x128 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000000087a8                close
+ .text          0x0000000000008880       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000008880                alt_dcache_flush_all
+ .text          0x00000000000088a0       0x2c ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000088cc       0xf4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000000000000891c                alt_dev_llist_insert
+ .text          0x00000000000089c0        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000089c0       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000089c0                alt_icache_flush_all
+ .text          0x00000000000089f4      0x1e0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000000000089f4                alt_ic_isr_register
+                0x0000000000008a44                alt_ic_irq_enable
+                0x0000000000008ae4                alt_ic_irq_disable
+                0x0000000000008b88                alt_ic_irq_enabled
+ .text          0x0000000000008bd4       0xf0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000008bd4                alt_iic_isr_register
+ .text          0x0000000000008cc4      0x160 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000008da8                alt_io_redirect
+ .text          0x0000000000008e24        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000008e24        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000008e24        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000008e24      0x2a4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000008f68                open
+ .text          0x00000000000090c8       0x84 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00000000000090c8                alt_release_fd
+ .text          0x000000000000914c      0x1a4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000000000000914c                alt_alarm_stop
+                0x00000000000091e8                alt_tick
+ .text          0x00000000000092f0       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00000000000092f0                altera_nios2_qsys_irq_init
+ .text          0x0000000000009314        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000009314       0x90 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000009314                alt_find_dev
+ .text          0x00000000000093a4      0x114 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00000000000093a4                alt_find_file
+ .text          0x00000000000094b8       0xd4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x00000000000094b8                alt_get_fd
+ .text          0x000000000000958c       0x90 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x000000000000958c                alt_icache_flush
+ .text          0x000000000000961c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .text.exit     0x000000000000961c       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                0x000000000000961c                exit
+ .text          0x000000000000963c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .text          0x000000000000963c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .text.memcmp   0x000000000000963c       0x30 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                0x000000000000963c                memcmp
+ .text          0x000000000000966c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x000000000000966c       0x1c c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x000000000000966c                strlen
+ .text          0x0000000000009688        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000009688      0x190 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                0x0000000000009688                __call_exitprocs
+ .text          0x0000000000009818        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000009818       0x28 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x0000000000009818                __mulsi3
+ .text          0x0000000000009840       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000009840                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000009874                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000009874                . = ALIGN (0x4)
+
+.rodata         0x0000000000009874       0x2c
+                0x0000000000009874                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000009874                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000009874        0xf ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000000009883        0x1 
+ .rodata        0x0000000000009884        0xf ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000009893        0x1 
+ .rodata        0x0000000000009894        0xa ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x00000000000098a0                . = ALIGN (0x4)
+ *fill*         0x000000000000989e        0x2 
+                0x00000000000098a0                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000009874                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00000000000098a0      0x2e0 load address 0x0000000000009b80
+                0x00000000000098a0                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00000000000098a0                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000098a0        0x0 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .data          0x00000000000098a0        0x0 obj/default/Lights_Switches.o
+ .data          0x00000000000098a0        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00000000000098a0        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00000000000098a0       0x2c ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00000000000098cc        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000000000098cc      0x1a8 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000098cc                alt_dev_null
+                0x00000000000098f4                alt_fd_list
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000000000009a74        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000009a74        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000009a74       0xe0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000009b54        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x0000000000009b54        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000011b54                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000009b54       0x14 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000009b54                alt_fs_list
+                0x0000000000009b5c                alt_dev_list
+                0x0000000000009b64                alt_max_fd
+ .sdata         0x0000000000009b68        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000009b68                alt_errno
+ .sdata         0x0000000000009b6c        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000009b6c                alt_priority_mask
+ .sdata         0x0000000000009b70        0x8 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000009b70                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x0000000000009b78        0x4 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000009b78                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000009b7c        0x4 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                0x0000000000009b7c                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000009b80                . = ALIGN (0x4)
+                0x0000000000009b80                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000009b80                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000009b80                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000009e60      0x11c
+                0x0000000000009e60                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000009e60        0xc ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000009e60                alt_argc
+                0x0000000000009e64                alt_argv
+                0x0000000000009e68                alt_envp
+ .sbss          0x0000000000009e6c        0x4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000009e6c                alt_irq_active
+ .sbss          0x0000000000009e70        0x8 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000009e70                _alt_tick_rate
+                0x0000000000009e74                _alt_nticks
+ .sbss          0x0000000000009e78        0x4 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000009e78                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000009e7c        0x0 obj/default/Lights_Switches.o
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000009e7c        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x0000000000009e7c        0x0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000009e7c      0x100 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000009e7c                alt_irq
+                0x0000000000009f7c                . = ALIGN (0x4)
+                0x0000000000009f7c                __bss_end = ABSOLUTE (.)
+
+.onchip_mem     0x0000000000009f7c        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_start, ABSOLUTE (.))
+ *(.onchip_mem .onchip_mem. onchip_mem.*)
+                0x0000000000009f7c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_end, ABSOLUTE (.))
+                0x0000000000009f7c                _end = ABSOLUTE (.)
+                0x0000000000009f7c                end = ABSOLUTE (.)
+                0x0000000000009f7c                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_load_addr, LOADADDR (.onchip_mem))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/Lights_Switches.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x0000000000000023       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x4b0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000048       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000168       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000188       0x18 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000200       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000220       0x30 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000250       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000270       0x18 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000288       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000000000002a8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000002e8       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x0000000000000308       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000340       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000360       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x0000000000000380       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000000000003e0       0x18 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x00000000000003f8       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000418       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000438       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000458       0x18 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000470       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x0000000000000490       0x20 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x4c89
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x8c ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000008c      0x145 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000001d1      0x131 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000302      0x3df ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000000000006e1      0x3a7 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000000a88      0x1b2 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000000c3a      0x195 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000000dcf      0x226 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0000000000000ff5      0x321 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x0000000000001316       0x92 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000000000013a8      0x49c ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000001844      0x1a9 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00000000000019ed       0xa6 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000001a93       0x92 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000001b25      0x350 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000001e75      0x1ef ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000002064      0x4a5 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x0000000000002509       0x95 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x000000000000259e      0x187 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000002725       0x88 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000000000027ad      0x3bb ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000000000002b68      0x2b0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000002e18      0x299 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00000000000030b1       0x92 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x0000000000003143       0x9b ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00000000000031de      0x2e9 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00000000000034c7      0x2e6 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00000000000037ad      0x310 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000003abd       0xdc ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000003b99       0xe5 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_info    0x0000000000003c7e       0x8a c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000003d08       0xf4 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000003dfc       0xc9 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000003ec5      0x67b c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000004540      0x5a9 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000004ae9       0xb4 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x0000000000004b9d       0xec ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x1d5b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x9f ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000000b1       0xba ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000000000000016b      0x157 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000000000002c2       0xf7 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00000000000003b9       0xd5 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000000000000048e       0xd5 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000563      0x155 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x00000000000006b8      0x11f ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000000000007d7       0x42 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000819       0xd9 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000000000008f2      0x114 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000000a06       0x5a ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000000a60       0x42 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000000aa2      0x163 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000000c05      0x169 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x0000000000000d6e      0x114 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x0000000000000e82       0x12 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000000e94      0x122 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000000fb6       0x40 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000000ff6      0x148 ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x000000000000113e       0xde ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000000000000121c      0x15a ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x0000000000001376       0x42 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000000000013b8       0x12 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000000000013ca       0xf0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000000000014ba       0xf0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00000000000015aa      0x10d ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00000000000016b7       0x8c ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000001743       0x8b c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000017ce       0x37 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001805       0x7f c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000001884       0x7f c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000001903      0x1f6 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000001af9      0x14a c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000001c43       0x6f c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x0000000000001cb2       0xa9 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x1eea
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x6c ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x000000000000006c        0x0 obj/default/Lights_Switches.o
+ .debug_line    0x000000000000006c       0x8e ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000000fa       0x9e ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000198      0x142 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000002da      0x112 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000000000003ec       0xfd ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000004e9       0xf4 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000000000005dd       0xfd ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x00000000000006da      0x15e ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000000838       0x51 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000889       0xf0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000000979       0xd0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000000a49       0x51 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000000a9a       0x50 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000aea       0xef ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000000bd9       0xdb ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000000cb4      0x12d ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x0000000000000de1       0x6b ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000000e4c       0xaa ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000000ef6       0x50 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000000f46      0x12d ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000001073       0xb0 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000001123       0xff ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000001222       0x51 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x0000000000001273       0xab ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000000000000131e       0xb5 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000013d3       0xd1 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x00000000000014a4       0xd8 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x000000000000157c       0x81 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000015fd      0x159 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_line    0x0000000000001756       0x5f c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x00000000000017b5      0x160 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000001915      0x15c c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001a71      0x232 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000001ca3      0x156 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001df9       0x80 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x0000000000001e79       0x71 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0x850
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x5c ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000000000000005c       0x2c ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000088       0x88 ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000110       0x60 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000170       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000001a4       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000001d8       0x60 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x0000000000000238       0x60 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000298       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000002cc       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000300       0x60 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x0000000000000360       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000398       0xa4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x000000000000043c       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000474       0x64 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000000000004d8       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000510       0x8c ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x000000000000059c       0x3c ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000000000005d8       0x5c ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000634       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x0000000000000668       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000000000006a0       0x38 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x00000000000006d8       0x3c ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000714       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000748       0x28 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000770       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000790       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000000007b0       0x54 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000804       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x0000000000000824       0x2c ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x13f4
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xa0 obj/default/Lights_Switches.o
+ .debug_str     0x00000000000000a0      0x1f6 ../Lights_Switches_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x22f (size before relaxing)
+ .debug_str     0x0000000000000296       0x70 ../Lights_Switches_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x0000000000000306      0x18f ../Lights_Switches_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x327 (size before relaxing)
+ .debug_str     0x0000000000000495       0x77 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x000000000000050c       0x48 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x23c (size before relaxing)
+ .debug_str     0x0000000000000554       0x4a ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x232 (size before relaxing)
+ .debug_str     0x000000000000059e       0xb6 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x268 (size before relaxing)
+ .debug_str     0x0000000000000654       0x44 ../Lights_Switches_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x228 (size before relaxing)
+ .debug_str     0x0000000000000698       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x172 (size before relaxing)
+ .debug_str     0x00000000000006cc      0x120 ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x322 (size before relaxing)
+ .debug_str     0x00000000000007ec       0x4b ../Lights_Switches_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1e9 (size before relaxing)
+ .debug_str     0x0000000000000837       0x14 ../Lights_Switches_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x162 (size before relaxing)
+ .debug_str     0x000000000000084b       0x34 ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x172 (size before relaxing)
+ .debug_str     0x000000000000087f       0xc4 ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000943       0x4c ../Lights_Switches_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x205 (size before relaxing)
+ .debug_str     0x000000000000098f       0x56 ../Lights_Switches_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x333 (size before relaxing)
+ .debug_str     0x00000000000009e5       0x3a ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x1b4 (size before relaxing)
+ .debug_str     0x0000000000000a1f       0x17 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x157 (size before relaxing)
+ .debug_str     0x0000000000000a36       0x2f ../Lights_Switches_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x268 (size before relaxing)
+ .debug_str     0x0000000000000a65       0x28 ../Lights_Switches_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x0000000000000a8d       0x78 ../Lights_Switches_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x26f (size before relaxing)
+ .debug_str     0x0000000000000b05       0x3b ../Lights_Switches_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                        0x179 (size before relaxing)
+ .debug_str     0x0000000000000b40       0x24 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x209 (size before relaxing)
+ .debug_str     0x0000000000000b64       0x26 ../Lights_Switches_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x217 (size before relaxing)
+ .debug_str     0x0000000000000b8a       0x30 ../Lights_Switches_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x239 (size before relaxing)
+ .debug_str     0x0000000000000bba       0x2c ../Lights_Switches_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x178 (size before relaxing)
+ .debug_str     0x0000000000000be6      0x142 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x0000000000000d28       0xd3 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-int_errno.o)
+                                        0x1d8 (size before relaxing)
+ .debug_str     0x0000000000000dfb       0xe0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+                                        0x1df (size before relaxing)
+ .debug_str     0x0000000000000edb       0x44 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x1e5 (size before relaxing)
+ .debug_str     0x0000000000000f1f      0x31b c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+                                        0x4eb (size before relaxing)
+ .debug_str     0x000000000000123a       0x48 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-impure.o)
+                                        0x4be (size before relaxing)
+ .debug_str     0x0000000000001282      0x148 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x00000000000013ca       0x2a ../Lights_Switches_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x16e (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x2ba
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x1e c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x000000000000001e       0x94 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000000000000b2       0x1e c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000000d0      0x157 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000227       0x93 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x20
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x20 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+                0x000000000000d000                __alt_data_end = 0xd000
+                0x000000000000d000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0xd000)
+OUTPUT(Lights_Switches.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0xf8
+ .debug_ranges  0x0000000000000000       0x20 ../Lights_Switches_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x18 ../Lights_Switches_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000038       0x28 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000060       0x10 ../Lights_Switches_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000070       0x30 ../Lights_Switches_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000a0       0x10 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-exit.o)
+ .debug_ranges  0x00000000000000b0       0x10 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-memcmp.o)
+ .debug_ranges  0x00000000000000c0       0x10 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x00000000000000d0       0x28 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-__call_atexit.o)

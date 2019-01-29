@@ -1,0 +1,9 @@
+14:58:25 **** Incremental Build of configuration Nios II for project HelloWorldSmall ****
+make all 
+Info: Building ../HelloWorldSmall_bsp/
+C:/altera/16.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../HelloWorldSmall_bsp/
+[BSP build complete]
+[HelloWorldSmall build complete]
+
+14:58:26 Build Finished (took 738ms)
+

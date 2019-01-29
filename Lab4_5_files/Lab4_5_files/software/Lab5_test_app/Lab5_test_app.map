@@ -1,0 +1,558 @@
+Archive member included to satisfy reference by file (symbol)
+
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+                              obj/default/hello_world_small.o (alt_getchar)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Lab5_test_app_bsp//obj/HAL/src/crt0.o (alt_load)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+                              ../Lab5_test_app_bsp//obj/HAL/src/crt0.o (alt_main)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+                              obj/default/hello_world_small.o (alt_printf)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+                              obj/default/hello_world_small.o (alt_putchar)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+                              obj/default/hello_world_small.o (alt_putstr)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o) (altera_avalon_jtag_uart_read)
+../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o) (altera_avalon_jtag_uart_write)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o) (alt_fd_list)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                              ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o) (strlen)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000008000 0x0000000000000020
+onchip_mem       0x0000000000008020 0x0000000000004fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+LOAD ../Lab5_test_app_bsp/\libhal_bsp.a
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/mno-hw-mul\libgcc.a
+                0x0000000000008000                __alt_mem_onchip_mem = 0x8000
+
+.entry          0x0000000000008000       0x20
+ *(.entry)
+ .entry         0x0000000000008000       0x20 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+                0x0000000000008000                __reset
+                0x000000000000801c                _exit
+
+.exceptions     0x0000000000008020        0x0
+                0x0000000000008020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000008020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000008020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000008020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000008020      0x600
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000008020       0x3c ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+                0x0000000000008020                _start
+ .text          0x000000000000805c       0x6c obj/default/hello_world_small.o
+                0x000000000000805c                send_receiveChar
+ .text.startup  0x00000000000080c8       0xf0 obj/default/hello_world_small.o
+                0x00000000000080c8                main
+ .text          0x00000000000081b8       0x44 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+                0x00000000000081b8                alt_getchar
+ .text          0x00000000000081fc       0xe0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000000000081fc                alt_load
+ .text          0x00000000000082dc       0x2c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000082dc                alt_main
+ .text          0x0000000000008308      0x170 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+                0x0000000000008308                alt_printf
+ .text          0x0000000000008478       0x48 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+                0x0000000000008478                alt_putchar
+ .text          0x00000000000084c0       0x38 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+                0x00000000000084c0                alt_putstr
+ .text          0x00000000000084f8       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00000000000084f8                alt_irq_init
+                0x0000000000008518                alt_sys_init
+ .text          0x000000000000851c       0x5c ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x000000000000851c                altera_avalon_jtag_uart_read
+ .text          0x0000000000008578       0x34 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000008578                altera_avalon_jtag_uart_write
+ .text          0x00000000000085ac        0x4 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000085ac                alt_dcache_flush_all
+ .text          0x00000000000085b0        0x8 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000085b8        0xc ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000085b8                alt_icache_flush_all
+ .text          0x00000000000085c4        0x8 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00000000000085c4                altera_nios2_qsys_irq_init
+ .text          0x00000000000085cc       0x38 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00000000000085cc                alt_icache_flush
+ .text          0x0000000000008604        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000008604       0x1c c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000008604                strlen
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000008620                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000008620                . = ALIGN (0x4)
+
+.rodata         0x0000000000008620       0x98
+                0x0000000000008620                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000008620                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000008620       0x8a obj/default/hello_world_small.o
+ *fill*         0x00000000000086aa        0x2 
+ .rodata.str1.4
+                0x00000000000086ac        0xc ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+                                          0xa (size before relaxing)
+ *(.rodata1)
+                0x00000000000086b8                . = ALIGN (0x4)
+                0x00000000000086b8                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000008620                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00000000000086b8       0x70 load address 0x0000000000008728
+                0x00000000000086b8                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00000000000086b8                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .data          0x00000000000086b8        0x0 obj/default/hello_world_small.o
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x00000000000086b8        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00000000000086b8       0x58 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000086b8                alt_fd_list
+                0x00000000000086e8                alt_dev_null
+ .data          0x0000000000008710        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000008710        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000000000008710        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000008710        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                0x0000000000010710                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000008710        0x4 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000008710                jtag_uart
+ .sdata         0x0000000000008714       0x14 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000008714                alt_max_fd
+                0x0000000000008718                alt_dev_list
+                0x0000000000008720                alt_fs_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000008728                . = ALIGN (0x4)
+                0x0000000000008728                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000008728                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000008728                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000008798        0xc
+                0x0000000000008798                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000008798        0xc ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000008798                alt_envp
+                0x000000000000879c                alt_argv
+                0x00000000000087a0                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .bss           0x00000000000087a4        0x0 obj/default/hello_world_small.o
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x00000000000087a4        0x0 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x00000000000087a4        0x0 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+ *(COMMON)
+                0x00000000000087a4                . = ALIGN (0x4)
+                0x00000000000087a4                __bss_end = ABSOLUTE (.)
+
+.onchip_mem     0x00000000000087a4        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_start, ABSOLUTE (.))
+ *(.onchip_mem .onchip_mem. onchip_mem.*)
+                0x00000000000087a4                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_end, ABSOLUTE (.))
+                0x00000000000087a4                _end = ABSOLUTE (.)
+                0x00000000000087a4                end = ABSOLUTE (.)
+                0x00000000000087a4                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_load_addr, LOADADDR (.onchip_mem))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/hello_world_small.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x0000000000000023       0x24 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x230
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x28 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000050       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_aranges
+                0x0000000000000070       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000090       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000000b0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_aranges
+                0x00000000000000d0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_aranges
+                0x00000000000000f0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_aranges
+                0x0000000000000110       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000130       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000150       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000170       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000190       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000000000001b0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001d0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000000000001f0       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000210       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x19d5
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x98 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000098      0x229 obj/default/hello_world_small.o
+ .debug_info    0x00000000000002c1      0x32d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_info    0x00000000000005ee      0x1c9 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00000000000007b7      0x169 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000000920      0x14d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_info    0x0000000000000a6d      0x12a ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_info    0x0000000000000b97      0x13a ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_info    0x0000000000000cd1      0x19d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000e6e      0x1b4 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000001022      0x197 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00000000000011b9       0x92 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000124b      0x499 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000016e4       0xb8 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000179c       0x92 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x000000000000182e       0xde ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x000000000000190c       0xc9 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_abbrev   0x0000000000000000      0xc26
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xec obj/default/hello_world_small.o
+ .debug_abbrev  0x00000000000000fe      0x11d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_abbrev  0x000000000000021b       0xd8 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000002f3       0xee ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x00000000000003e1       0xd5 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_abbrev  0x00000000000004b6       0xd2 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_abbrev  0x0000000000000588       0xd3 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_abbrev  0x000000000000065b      0x10e ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000769      0x102 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x000000000000086b       0xd5 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000940       0x42 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000982       0xd9 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000000a5b       0x6f ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000000aca       0x42 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x0000000000000b0c       0x9b ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000000ba7       0x7f c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_line     0x0000000000000000      0xc39
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x6c ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x000000000000006c       0xe5 obj/default/hello_world_small.o
+ .debug_line    0x0000000000000151       0xb7 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_line    0x0000000000000208       0xa5 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000002ad       0xbd ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000036a      0x10a ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_line    0x0000000000000474       0x55 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_line    0x00000000000004c9       0x98 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_line    0x0000000000000561      0x11a ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x000000000000067b       0xfb ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x0000000000000776       0xf0 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000000866       0x4e ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000000000008b4       0xee ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00000000000009a2       0x6e ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000000a10       0x50 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x0000000000000a60       0x7d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000000add      0x15c c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_frame    0x0000000000000000      0x2bc
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x44 obj/default/hello_world_small.o
+ .debug_frame   0x0000000000000044       0x2c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+ .debug_frame   0x0000000000000070       0x30 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000000a0       0x2c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000cc       0x54 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_frame   0x0000000000000120       0x30 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_frame   0x0000000000000150       0x30 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_frame   0x0000000000000180       0x3c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000001bc       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000001dc       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000001fc       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000000000000021c       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000023c       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000000000000025c       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000000000000027c       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x000000000000029c       0x20 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_str      0x0000000000000000      0x913
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x144 obj/default/hello_world_small.o
+                                        0x175 (size before relaxing)
+ .debug_str     0x0000000000000144      0x1ad ../Lab5_test_app_bsp/\libhal_bsp.a(alt_getchar.o)
+                                        0x25f (size before relaxing)
+ .debug_str     0x00000000000002f1      0x11b ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x265 (size before relaxing)
+ .debug_str     0x000000000000040c       0x5e ../Lab5_test_app_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1de (size before relaxing)
+ .debug_str     0x000000000000046a       0x4d ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+                                        0x12f (size before relaxing)
+ .debug_str     0x00000000000004b7       0x34 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+                                        0x1b4 (size before relaxing)
+ .debug_str     0x00000000000004eb       0x1c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+                                        0x1b9 (size before relaxing)
+ .debug_str     0x0000000000000507       0xb9 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x285 (size before relaxing)
+ .debug_str     0x00000000000005c0       0x3d ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x248 (size before relaxing)
+ .debug_str     0x00000000000005fd       0x32 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x23e (size before relaxing)
+ .debug_str     0x000000000000062f       0x1f ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x17e (size before relaxing)
+ .debug_str     0x000000000000064e      0x120 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x32e (size before relaxing)
+ .debug_str     0x000000000000076e       0x30 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x18f (size before relaxing)
+ .debug_str     0x000000000000079e       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                                        0x185 (size before relaxing)
+ .debug_str     0x00000000000007be       0x1b ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x184 (size before relaxing)
+ .debug_str     0x00000000000007d9      0x13a c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+                                        0x1e5 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x4ab
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x81 obj/default/hello_world_small.o
+ .debug_loc     0x0000000000000081      0x1de ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_loc     0x000000000000025f       0x2c ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putchar.o)
+ .debug_loc     0x000000000000028b       0x37 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_putstr.o)
+ .debug_loc     0x00000000000002c2       0x21 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000000000002e3       0xcd ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x00000000000003b0       0x8b ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000000000000043b       0x52 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x000000000000048d       0x1e c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x20
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x20 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+                0x000000000000d000                __alt_data_end = 0xd000
+                0x000000000000d000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0xd000)
+OUTPUT(Lab5_test_app.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0xd8
+ .debug_ranges  0x0000000000000000       0x20 ../Lab5_test_app_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x18 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000038       0x48 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000080       0x18 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_printf.o)
+ .debug_ranges  0x0000000000000098       0x20 ../Lab5_test_app_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x00000000000000b8       0x10 ../Lab5_test_app_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_ranges  0x00000000000000c8       0x10 c:/altera/16.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.2.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strlen.o)
